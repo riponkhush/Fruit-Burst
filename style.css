@@ -29,4 +29,5 @@
     background-image: url("./images/team.png");
     background-size: cover;
 height: 100vh;
+border-radius: 5px;
 }
