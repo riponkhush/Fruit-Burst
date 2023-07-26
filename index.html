@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c055eebf92.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Manrope:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,800;1,700&family=Poppins:wght@300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <!-- navbar section -->
+    <header class="container mx-auto p-10">
+        <nav>
+            <div class="navbar bg-red-400 flex justify-between p-4 rounded-full">
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-white text-lg	font-medium">
+                      <li><a>Home</a></li>
+                      <li><a>About US</a></li>
+                      <li><a href="#">Shop</a></li>
+                      <li><a href="#">All Fruits</a></li>
+                    </ul>
+                  </div>
+                    <div>
+                        <img class="logo" src="./images/logo.png" alt="">
+                        <a class="btn btn-ghost text-white font-bold text-4xl	">Fruit Burst</a>
+                    </div>
+                <div class="flex-none gap-2">
+                    <div class="form-control w-96">
+                      <input type="text" placeholder="Search here" class="rounded-full input input-bordered w-24 md:w-auto" />
+                    </div>
+                  </div>
+              </div>
+        </nav>
+    </header>
+    <!-- main section  -->
+    <main>
+        <!-- bannar section  -->
+        <section class="container mx-auto p-5">
+            <div class="carousel w-full static ">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="./images//banner1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="./images//banner2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="./images//banner3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="./images//banner4.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+              <div class="flex justify-evenly bg-white	 text-center max-w-fit p-10 absolute -mt-32 ml-56 rounded-lg shadow-lg ">
+                <div class="">
+                    <img src="./images/fruit1.png" alt="">
+                    <h3>Strawberry</h3>
+                </div>
+                <div>
+                    <img src="./images/fruit2.png" alt="">
+                    <h3>Orange</h3>
+                </div>
+                <div>
+                    <img src="./images/fruit3.png" alt="">
+                    <h3>Mango</h3>
+                </div>
+                <div>
+                    <img src="./images/fruit4.png" alt="">
+                    <h3>Strawberry</h3>
+                </div>
+                <div>
+                    <img src="./images/fruit5.png" alt="">
+                    <h3>Mango</h3>
+                </div>
+              </div>
+        </section>
+        <!-- Deal of the day -->
+        <section class="container mx-auto p-5">
+            <div>
+                <div class="grid grid-cols-2 gap-4 my-48">
+                    <div>
+                        <h2>Deal of the day</h2>
+                        <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div>
+                   
+                    <div class="stats stats-vertical lg:stats-horizontal shadow">
+  
+                        <div class="stat">
+                          <div class="stat-title">Downloads</div>
+                          <div class="stat-value">31K</div>
+                          <div class="stat-desc">Jan 1st - Feb 1st</div>
+                        </div>
+                        
+                        <div class="stat">
+                          <div class="stat-title">New Users</div>
+                          <div class="stat-value">4,200</div>
+                          <div class="stat-desc">↗︎ 400 (22%)</div>
+                        </div>
+                        
+                        <div class="stat">
+                          <div class="stat-title">New Registers</div>
+                          <div class="stat-value">1,200</div>
+                          <div class="stat-desc">↘︎ 90 (14%)</div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                  <!-- Card section -->
+                  <div class="grid grid-cols-4">
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                      <figure class="px-10 pt-10">
+                        <img src="./images//fruit6.png" alt="Shoes" class="rounded-xl" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                      <figure class="px-10 pt-10">
+                        <img src="./images//fruit7.png" alt="Shoes" class="rounded-xl" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                      <figure class="px-10 pt-10">
+                        <img src="./images//fruit8.png" alt="Shoes" class="rounded-xl" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                      <figure class="px-10 pt-10">
+                        <img src="./images//fruit9.png" alt="Shoes" class="rounded-xl" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions">
+                          <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
