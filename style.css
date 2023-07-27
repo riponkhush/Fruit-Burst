@@ -1,5 +1,6 @@
-*{
-    font-family: Lato;
+* {
+  font-family: Lato;
+  overflow-x: hidden;
 }
 /* .logo{
     background-image: url("/images/logo.png");
@@ -25,9 +26,9 @@
     height: 100vh;
 }*/
 
-.meet-container{
-    background-image: url("./images/team.png");
-    background-size: cover;
-height: 100vh;
-border-radius: 5px;
+.meet-container {
+  background-image: url("./images/team.png");
+  background-size: cover;
+  height: 100vh;
+  border-radius: 5px;
 }
