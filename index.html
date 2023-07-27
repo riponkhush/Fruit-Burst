@@ -220,23 +220,23 @@
           >
             <div>
               <img src="./images/fruit1.png" alt="" />
-              <h3>Strawberry</h3>
+              <h3 class="text-gray-400">Strawberry</h3>
             </div>
             <div>
               <img src="./images/fruit2.png" alt="" />
-              <h3>Orange</h3>
+              <h3 class="text-gray-400">Orange</h3>
             </div>
             <div>
               <img src="./images/fruit3.png" alt="" />
-              <h3>Mango</h3>
+              <h3 class="text-gray-400">Mango</h3>
             </div>
             <div>
               <img src="./images/fruit4.png" alt="" />
-              <h3>Strawberry</h3>
+              <h3 class="text-gray-400">Strawberry</h3>
             </div>
             <div>
               <img src="./images/fruit5.png" alt="" />
-              <h3>Mango</h3>
+              <h3 class="text-gray-400">Mango</h3>
             </div>
           </div>
         </div>
@@ -249,37 +249,53 @@
               <h2 class="text-3xl font-extrabold md:ml-10 md:text-left text-center">
                 Deal of the day
               </h2>
-              <p class="font-medium text-base px-10">
+              <p class="font-medium text-base px-10 text-gray-400">
                 Contrary to popular belief, is not simply random text. It has
                 roots in a piece of classical Latin literature from 45 BC,
                 making it over 2000 years old.
               </p>
             </div>
 
-            <div class="stats stats-vertical lg:stats-horizontal flex px-10">
-              <div class="stat">
-                <div class="stat-value">29</div>
-                <div class="stat-desc">Days</div>
-              </div>
-              <div class="stat">
-                <div class="stat-value">15</div>
-                <div class="stat-desc">Hours</div>
-              </div>
-              <div class="stat">
-                <div class="stat-value">25</div>
-                <div class="stat-desc">Minutes</div>
-              </div>
-
-              <div class="stat">
-                <div class="stat-value">08</div>
-                <div class="stat-desc">Seconds</div>
+            <div class="grid grid-flow-col gap-5 auto-cols-max justify-center md:items-center lg:ml-72">
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:15;"></span>
+                </span>
+                days
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="4" height="16" viewBox="0 0 4 16" fill="none">
+                    <path d="M2 2.75C1.80109 2.75 1.61032 2.67098 1.46967 2.53033C1.32902 2.38968 1.25 2.19891 1.25 2C1.25 1.80109 1.32902 1.61032 1.46967 1.46967C1.61032 1.32902 1.80109 1.25 2 1.25C2.19891 1.25 2.38968 1.32902 2.53033 1.46967C2.67098 1.61032 2.75 1.80109 2.75 2C2.75 2.19891 2.67098 2.38968 2.53033 2.53033C2.38968 2.67098 2.19891 2.75 2 2.75ZM2 8.75C1.80109 8.75 1.61032 8.67098 1.46967 8.53033C1.32902 8.38968 1.25 8.19891 1.25 8C1.25 7.80109 1.32902 7.61032 1.46967 7.46967C1.61032 7.32902 1.80109 7.25 2 7.25C2.19891 7.25 2.38968 7.32902 2.53033 7.46967C2.67098 7.61032 2.75 7.80109 2.75 8C2.75 8.19891 2.67098 8.38968 2.53033 8.53033C2.38968 8.67098 2.19891 8.75 2 8.75ZM2 14.75C1.80109 14.75 1.61032 14.671 1.46967 14.5303C1.32902 14.3897 1.25 14.1989 1.25 14C1.25 13.8011 1.32902 13.6103 1.46967 13.4697C1.61032 13.329 1.80109 13.25 2 13.25C2.19891 13.25 2.38968 13.329 2.53033 13.4697C2.67098 13.6103 2.75 13.8011 2.75 14C2.75 14.1989 2.67098 14.3897 2.53033 14.5303C2.38968 14.671 2.19891 14.75 2 14.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span style="--value:10;"></span>
+                </span>
+                hours
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="4" height="16" viewBox="0 0 4 16" fill="none">
+                    <path d="M2 2.75C1.80109 2.75 1.61032 2.67098 1.46967 2.53033C1.32902 2.38968 1.25 2.19891 1.25 2C1.25 1.80109 1.32902 1.61032 1.46967 1.46967C1.61032 1.32902 1.80109 1.25 2 1.25C2.19891 1.25 2.38968 1.32902 2.53033 1.46967C2.67098 1.61032 2.75 1.80109 2.75 2C2.75 2.19891 2.67098 2.38968 2.53033 2.53033C2.38968 2.67098 2.19891 2.75 2 2.75ZM2 8.75C1.80109 8.75 1.61032 8.67098 1.46967 8.53033C1.32902 8.38968 1.25 8.19891 1.25 8C1.25 7.80109 1.32902 7.61032 1.46967 7.46967C1.61032 7.32902 1.80109 7.25 2 7.25C2.19891 7.25 2.38968 7.32902 2.53033 7.46967C2.67098 7.61032 2.75 7.80109 2.75 8C2.75 8.19891 2.67098 8.38968 2.53033 8.53033C2.38968 8.67098 2.19891 8.75 2 8.75ZM2 14.75C1.80109 14.75 1.61032 14.671 1.46967 14.5303C1.32902 14.3897 1.25 14.1989 1.25 14C1.25 13.8011 1.32902 13.6103 1.46967 13.4697C1.61032 13.329 1.80109 13.25 2 13.25C2.19891 13.25 2.38968 13.329 2.53033 13.4697C2.67098 13.6103 2.75 13.8011 2.75 14C2.75 14.1989 2.67098 14.3897 2.53033 14.5303C2.38968 14.671 2.19891 14.75 2 14.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span style="--value:24;"></span>
+                </span>
+                min
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="4" height="16" viewBox="0 0 4 16" fill="none">
+                    <path d="M2 2.75C1.80109 2.75 1.61032 2.67098 1.46967 2.53033C1.32902 2.38968 1.25 2.19891 1.25 2C1.25 1.80109 1.32902 1.61032 1.46967 1.46967C1.61032 1.32902 1.80109 1.25 2 1.25C2.19891 1.25 2.38968 1.32902 2.53033 1.46967C2.67098 1.61032 2.75 1.80109 2.75 2C2.75 2.19891 2.67098 2.38968 2.53033 2.53033C2.38968 2.67098 2.19891 2.75 2 2.75ZM2 8.75C1.80109 8.75 1.61032 8.67098 1.46967 8.53033C1.32902 8.38968 1.25 8.19891 1.25 8C1.25 7.80109 1.32902 7.61032 1.46967 7.46967C1.61032 7.32902 1.80109 7.25 2 7.25C2.19891 7.25 2.38968 7.32902 2.53033 7.46967C2.67098 7.61032 2.75 7.80109 2.75 8C2.75 8.19891 2.67098 8.38968 2.53033 8.53033C2.38968 8.67098 2.19891 8.75 2 8.75ZM2 14.75C1.80109 14.75 1.61032 14.671 1.46967 14.5303C1.32902 14.3897 1.25 14.1989 1.25 14C1.25 13.8011 1.32902 13.6103 1.46967 13.4697C1.61032 13.329 1.80109 13.25 2 13.25C2.19891 13.25 2.38968 13.329 2.53033 13.4697C2.67098 13.6103 2.75 13.8011 2.75 14C2.75 14.1989 2.67098 14.3897 2.53033 14.5303C2.38968 14.671 2.19891 14.75 2 14.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span style="--value:36;"></span>
+                </span>
+                sec
               </div>
             </div>
           </div>
           <!-- Card section -->
           <div class="grid md:grid-cols-4 gap-5 justify-center items-center">
             <!-- card no-1 -->
-            <div class="card w-64 bg-base-100 shadow-lg shadow-indigo-500/40">
+            <div class="card w-64 bg-base-100 shadow-lg shadow-indigo-500/100">
               <figure class="px-10 pt-10">
                 <img
                   src="./images//fruit6.png"
@@ -289,7 +305,7 @@
               </figure>
               <div class="card-body items-center text-center">
                 <h2 class="card-title">12.90$ - 18.85$</h2>
-                <p>Apples</p>
+                <p class="text-gray-400">Apples</p>
                 <div class="rating rating-lg rating-half w-32">
                   <input type="radio" name="rating-10" class="rating-hidden" />
                   <input
@@ -356,8 +372,8 @@
                           <img src="./images//fruit6.png" alt="Shoes" />
                         </figure>
                         <div class="card-body">
-                          <div class="">
-                            <h2 class="card-title">Apples</h2>
+                          <div class=" ">
+                            <h2 class="card-title text-gray-400">Apples</h2>
 
                             <div class="rating rating-lg rating-half w-32">
                               <input
@@ -449,7 +465,7 @@
               </figure>
               <div class="card-body items-center text-center">
                 <h2 class="card-title">12.90$ - 18.85$</h2>
-                <p>Orange</p>
+                <p class="text-gray-400">Orange</p>
                 <div class="rating rating-lg rating-half w-32">
                   <input type="radio" name="rating-10" class="rating-hidden" />
                   <input
@@ -517,7 +533,7 @@
                         </figure>
                         <div class="card-body">
                           <div class="">
-                            <h2 class="card-title">Orange</h2>
+                            <h2 class="card-title text-gray-400">Orange</h2>
                             <div class="rating rating-lg rating-half w-32">
                               <input
                                 type="radio"
@@ -608,7 +624,7 @@
               </figure>
               <div class="card-body items-center text-center">
                 <h2 class="card-title">12.90$ - 18.85$</h2>
-                <p>Red Dragon</p>
+                <p class="text-gray-400">Red Dragon</p>
                 <div class="rating rating-lg rating-half w-32">
                   <input type="radio" name="rating-10" class="rating-hidden" />
                   <input
@@ -676,7 +692,7 @@
                         </figure>
                         <div class="card-body">
                           <div class="">
-                            <h2 class="card-title">Red Dragon</h2>
+                            <h2 class="card-title text-gray-400">Red Dragon</h2>
                             <div class="rating rating-lg rating-half w-32">
                               <input
                                 type="radio"
@@ -767,7 +783,7 @@
               </figure>
               <div class="card-body items-center text-center">
                 <h2 class="card-title">12.90$ - 18.85$</h2>
-                <p>Banana</p>
+                <p class="text-gray-400">Banana</p>
                 <div class="rating rating-lg rating-half w-32">
                   <input type="radio" name="rating-10" class="rating-hidden" />
                   <input
@@ -835,7 +851,7 @@
                         </figure>
                         <div class="card-body">
                           <div class="">
-                            <h2 class="card-title">Banana</h2>
+                            <h2 class="card-title text-gray-400">Banana</h2>
                             <div class="rating rating-lg rating-half w-32">
                               <input
                                 type="radio"
@@ -1118,7 +1134,7 @@
       <section class="container mx-auto mb-20">
         <div class="text-center w-4/6 m-auto space-y-3 my-16">
           <h1 class="text-3xl font-extrabold">Why Choose Us</h1>
-          <p class="font-medium text-lg">
+          <p class="font-medium text-lg text-gray-400">
             Contrary to popular belief, is not simply random text. It has roots
             in a piece of classical Latin <br />
             literature from 45 BC, making it over 2000 years old.
@@ -1132,36 +1148,42 @@
             <!-- Dedicated Team -->
             <div class="space-y-5">
               <div class="flex items-center gap-5">
-                <a><i class="fa-solid fa-users"></i></a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                  <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
+                  </svg>
                 <div class="space-y-3">
-                  <h2 class="border-b-2 border-black w-48 text-2xl">
+                  <h2 class="border-b-2 border-black w-48 text-2xl font-extrabold	">
                     Dedicated Team
                   </h2>
-                  <p>
+                  <p class="text-gray-400	">
                     Professional employees are there for you to pick the most
                     amazing and fresh fruits.
                   </p>
                 </div>
               </div>
               <div class="flex items-center gap-5">
-                <a href="#"><i class="fa-solid fa-users"></i></a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                  <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
+                </svg>
                 <div class="space-y-3">
-                  <h2 class="border-b-2 border-black w-48 text-2xl">
+                  <h2 class="border-b-2 border-black w-48 text-2xl font-extrabold	">
                     Fresh is Best
                   </h2>
-                  <p>
+                  <p class="text-gray-400	">
                     Professional employees are there for you to pick the most
                     amazing and fresh fruits.
                   </p>
                 </div>
               </div>
               <div class="flex items-center gap-5">
-                <a href="#"><i class="fa-solid fa-users"></i></a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                  <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
+                </svg>
                 <div class="space-y-3">
-                  <h2 class="border-b-2 border-black w-48 text-2xl">
+                  <h2 class="border-b-2 border-black w-48 text-2xl font-extrabold	">
                     Gift Certificates
                   </h2>
-                  <p>
+                  <p class="text-gray-400	">
                     Professional employees are there for you to pick the most
                     amazing and fresh fruits.
                   </p>
@@ -1178,39 +1200,45 @@
             <div class="space-y-5 text-right">
               <div class="flex items-center gap-5">
                 <div class="space-y-3">
-                  <h2 class="text-right w-50 text-2xl border-b-2 border-black">
+                  <h2 class="text-right w-50 text-2xl border-b-2 border-black font-extrabold	">
                     Integrated Supplier
                   </h2>
-                  <p>
+                  <p class="text-gray-400	">
                     Professional employees are there for you to pick the most
                     amazing and fresh fruits.
                   </p>
                 </div>
-                <a href="#"><i class="fa-solid fa-users"></i></a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                  <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
+                </svg>
               </div>
               <div class="flex items-center gap-5">
                 <div class="space-y-3">
-                  <h2 class="w-50 text-2xl border-b-2 border-black">
+                  <h2 class="w-50 text-2xl border-b-2 border-black font-extrabold	">
                     Sustainable Practice
                   </h2>
-                  <p>
+                  <p class="text-gray-400	">
                     Professional employees are there for you to pick the most
                     amazing and fresh fruits.
                   </p>
                 </div>
-                <a href="#"><i class="fa-solid fa-users"></i></a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                  <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
+                </svg>
               </div>
               <div class="flex items-center gap-5">
                 <div class="space-y-3">
-                  <h2 class="w-50 text-2xl border-b-2 border-black">
+                  <h2 class="w-50 text-2xl border-b-2 border-black font-extrabold	">
                     The Benefits Only
                   </h2>
-                  <p>
+                  <p class="text-gray-400	">
                     Professional employees are there for you to pick the most
                     amazing and fresh fruits.
                   </p>
                 </div>
-                <a href="#"><i class="fa-solid fa-users"></i></a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                  <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
+                </svg>
               </div>
             </div>
           </div>
